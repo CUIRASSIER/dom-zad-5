@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 40px;
+    font-size: 42px;
+    font-family: Calibri, serif;
+}
+
+body{
+    margin: 0 0 0 370px;
+    padding: 20px;
+}
+
+/*enlever les puces devant ceux-ci avec la propriété CSS list-style-type
+*les placer côte-à-côte en les faisant flotter grâce la propriété CSS float.*/
+nav li{
+    list-style-type: none;
+    float: left;
+}
+/*lorsqu’un élément non flottant contient des éléments enfants flottants, le CSS va faire collapser le parent, qui n’aura plus de hauteur.
+*c est le cas pour notre élément ul
+*solution pour résoudre le problème est d’appliquer un overflow : hidden à l’élément contenant les éléments flottants (donc ici à ul). Cela rétablira la hauteur de l'élément ul.*/
+
+nav ul{
+    overflow: hidden;
+}
+/* ajouter une couleur de fond à notre élément nav
+* étendre sa taille à 100% de son élément parent, c'est-à-dire l’élément body.*/
+nav{
+    width: 70%;
+    background-color: grey;
+    margin: 20px;
+}
+/* changer les liens en inline-block
+* ajouter une marge interieur
+*enlever le trait de surlignement et changer la couleur */
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+section{
+    color: black;
+    height: 900px;
+    width: 1200px;
+}
+.menu-on-the-left{
+    display: inline-block;
+    margin: 20px 20px;
+}
+.menu-on-the-left li{
+    color: black;
+    height: 50px;
+    width: 240px;
+    border: 1px solid grey;
+    list-style-type: none;
+}
+.menu-on-the-left a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.velo{
+    display: inline-block;
+    margin: 20px 160px 20px 70px;
+    border: 1px solid grey;
+    padding: 40px;
+}
+p{
+    float: right;
+    margin:20px 160px 40px 360px;
+}
+
+footer li{
+    list-style-type: none;
+    float: left;
+}
+
+footer ul{
+    overflow: hidden;
+}
+
+footer{
+    width: 70%;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    background-color: lightgrey;
+    margin: 60px;
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#R{
+    float:right;
+    margin-right: 20px;
+}
+.Главная:hover{
+    background-color: black;
+}
+.Товары:hover{
+    background-color: black;
+}
+.О_нас:hover{
+    background-color: black;
+}
+.Контакты:hover{
+    background-color: black;
+}
