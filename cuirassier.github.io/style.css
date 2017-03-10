@@ -1,0 +1,23 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 16px;
+    width: 400px;
+    border-color: #eeeeee;
+    border-bottom-width: 30px;
+    border-top-width: 30px;
+    border-left-width: 200px;
+    border-right-width: 200px;
+    border-style: solid;
+    margin: 30px auto;
+    padding: 30px 150px;
+    background-color: #f3f4f4;
+}
+.pic{
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+.contain{
+    font-size: 11px;
+}
