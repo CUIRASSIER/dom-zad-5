@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+/* MENU SIMPLE */
+
+nav {
+    /* etendre l element sur toute sa largeur */
+    width: 100%;
+    background-color: #4d6fa9;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    /* enlever les puces */
+    list-style-type: none;
+    /* les faire floter */
+    float: left;
+}
+nav a{
+    /*  */
+    display: inline-block;
+    text-decoration: none;
+    /*  marge interieur en haut/bas et cote entre les onglets du menu */
+    padding: 15px 30px;
+    color: #fff;
+}
+.vender:hover {
+    background-color: black;
+}
+
+/*  pour centre l ongler menu au centre de la page*/
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+
+/*  HEADER  */
+
+#back {
+    position: absolute;	/* dimension et positionnement du bloc conteneur  de l'image */
+    width: 50%;
+    height: auto;
+
+}
+#back img {
+    /* l'image occupe toute la place de son bloc conteneur */
+
+}
+.form {
+    position: absolute; /* placement du texte par-dessus l'image */
+    text-align: center;
+    top: 10em;
+    left: 55em;
+    color: white;
+    background-color: rgba(61, 55, 61, 0.7);
+    padding: 50px;
+
+    line-height: 40px;
+
+}
+
+.trait{
+    background-color: white;
+    height: 1pt;
+    width: 100%;
+}
+p.trait2 {
+    border-top:1px solid;
+    position:relative;
+    text-align:center;
+}
+p.trait2 span {
+
+    background:#4F5B6F;
+    position:relative;
+    top:-0.9em;
+    }
+
+.cad{
+    font-size: 28px;
+    text-align: center;
+}
+label{
+    font-size: 12px;
+}
+input{
+background-color: rgb(61,55,61);
+    height: 20px;
+
+}
+.perso{
+    background-color: rgb(74, 119, 173);
+    border: solid 1px white;
+}
+
+.perso1{
+    background-color: rgb(74, 119, 173);
+    color: white;
+}
+.p2{
+    line-height: 20px;
+    font-size: 10px;
+}
